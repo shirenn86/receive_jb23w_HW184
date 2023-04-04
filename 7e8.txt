@@ -1,0 +1,24 @@
+unsigned char rpm[8] = {2, 1, 0x0c, 0, 0, 0, 0, 0};    // rpm  0x0C
+
+  CAN0.sendMsgBuf(0x7df, 0, 8, rpm);  //ECUにデータ送信要求
+
+
+ID: 7E8  Data: 04 41 0C 00 00 00 00 00 
+ID: 7E8  Data: 04 41 0C 04 F2 00 00 00 
+ID: 7E8  Data: 04 41 0C 05 9E 00 00 00 
+ID: 7E8  Data: 04 41 0C 14 EF 00 00 00 
+ID: 7E8  Data: 04 41 0C 19 93 00 00 00 
+ID: 7E8  Data: 04 41 0C 1C DF 00 00 00 
+ID: 7E8  Data: 04 41 0C 1D 9A 00 00 00 
+ID: 7E8  Data: 04 41 0C 1D 0E 00 00 00 
+ID: 7E8  Data: 04 41 0C 1D 3C 00 00 00 
+ID: 7E8  Data: 04 41 0C 1E 27 00 00 00 
+ID: 7E8  Data: 04 41 0C 1E 46 00 00 00 
+ID: 7E8  Data: 04 41 0C 1E 75 00 00 00 
+ID: 7E8  Data: 04 41 0C 1E F2 00 00 00 
+ID: 7E8  Data: 04 41 0C 1F 21 00 00 00 
+ID: 7E8  Data: 04 41 0C 1F 50 00 00 00 
+ID: 7E8  Data: 04 41 0C 1F 30 00 00 00 
+ID: 7E8  Data: 04 41 0C 1F 02 00 00 00 
+ID: 7E8  Data: 04 41 0C 1E D3 00 00 00 
+ID: 7E8  Data: 04 41 0C 1E F2 00 00 00 
